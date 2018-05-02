@@ -77,7 +77,7 @@ class Provider extends AbstractProvider implements ProviderInterface
      */
     protected function getInstanceUri()
     {
-        return $this->getConfig('instance_uri', 'https://gitlab.com/');
+        return $this->getConfig('instance_uri', 'https://gitlab.refactory.id/');
     }
 
     /**
